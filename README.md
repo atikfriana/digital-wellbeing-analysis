@@ -1,59 +1,126 @@
-# Attention-Span-Analysis
-With the rise of short-form content like Instagram Reels, YouTube Shorts, and TikTok videos, concerns are growing about its impact on attention span, productivity, and overall well-being. This project aims to analyze how consuming short-format content influences focus and cognitive abilities, affects work and academic productivity, and contributes to social media addiction and its effects on mental well-being.
-# Dashboard
-![Screenshot 2025-06-27 180548](https://github.com/user-attachments/assets/d6ea202b-3ad3-4a55-9f5a-1c92570a8409)
-![Screenshot 2025-06-27 180557](https://github.com/user-attachments/assets/f44ed52b-8231-42d3-a2d9-a6f9ef07f4b6)
-![Screenshot 2025-06-27 180602](https://github.com/user-attachments/assets/79e093d9-389a-4da7-8a72-9e409128d11e)
-![Screenshot 2025-06-27 180608](https://github.com/user-attachments/assets/6d652ca3-d67b-4321-9faa-053d9247f302)
+# 🧠 Digital Wellbeing Analysis — How Short-Form Content Affects Focus and Productivity
 
-# Tech Stack
-Python, Power Bi
-# Questions answered (KPIs)
-* User demographics
-* Short form content consumption trends
-* Impact on attention span
-* Effect on productivity
-* Distractions while studying
-* Health factors and health risks
+Hi! I’m **Atika Arifiana**, a Data Analyst enthusiast passionate about using data for real impact.  
+This project explores how **short-form content** (Reels, TikTok, Shorts) affects **attention span, productivity, and mental health**, using survey data and public datasets.
 
-# Methodology
-**Data Collection**
-Used two datasets:
-1.	Personal survey dataset (collected via Google Forms).
-2.	Kaggle dataset on social media usage and attention span.
-https://www.kaggle.com/datasets/innocentmfa/students-health-and-academic-performance
+📊 Tools used: **Python, Pandas, Seaborn, Power BI**
 
-**Data cleaning and pre-processing**
-Python (Pandas, NumPy, Seaborn, Matplotlib) 
-* Bootstrapped the survey dataset to improve sample size to total of 1000 records.
-* Cleaned missing values, removed duplicates, and standardized formats.
-* Performed exploratory data analysis (EDA) to understand distributions and correlations.
-Power Bi
-* Performed splitting of columns based on delimiters due to rows having multiple values. 
-*	Performed unpivoting and indexing.
-*	Created derived columns based on existing columns.
+---
 
-**Data analysis & visualization**
-*	Created interactive dashboards to compare different user behaviours.
-*	Built trend analysis visuals showing various sorts relationships between short-form content consumption and attention span.
-*	Used DAX functions to derive key insights on user engagement and focus patterns.
+## 📌 Project Objective
 
-# Insights
-* Instagram dominates: 70% of people use Instagram, and 60% prefer reels under 20 seconds.
-* Screen time extremes: The highest daily screen time (6.9 hrs) and social media usage (4.2 hrs) are reported by unemployed users.
-* Engagement trends: People are more likely to engage with fast-paced entertainment & comedy videos over longer educational content.
-* Attention span decline: 69% of students report a decline in attention span, especially those with 4+ hours of daily screen time.
-* Academic impact: 84% of students say phone use negatively affects studying and class performance.
-* Health risks & focus: 73% of students at health risk also report a decline in attention span.
-* Productivity concerns: 72% feel their productivity is hindered by reels and shorts, while 77% admit to addiction.
-* Focus & content preference: Among those struggling to focus on longer content like articles, 64% prefer short-form videos.
-* Age & addiction trends: Users aged 20-30 and employed individuals report feeling most addicted to short-form content.
-* Managing screen time: Most students consider limiting screen time the best precaution, followed by taking breaks.
+With the rise of short-form video platforms, many students and young professionals experience decreased focus, increased screen time, and lower productivity.  
+This project aims to:
+- Analyze behavioral trends in short-form content consumption  
+- Investigate correlations with attention span and academic/work performance  
+- Build a dashboard that visualizes insights to support digital well-being  
 
-# Recommendations
-* Limit excessive short-form content consumption → Set daily screen time limits to reduce dependency.
-* Encourage mindful content consumption → Prioritize educational and long-form content to improve attention span.
-* Take regular breaks
-# Links
-[![Portfolio](https://img.shields.io/badge/MY%20PORTFOLIO-black?style=for-the-badge&logo=github)](https://ishaa-23.github.io/)
-[![LinkedIn](https://img.shields.io/badge/LINKEDIN-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/ishaa-abdul-63b079217/)
+---
+
+## 🗂️ Folder Structure
+
+```
+
+Attention-Span-Analysis-main/
+│
+├── dataset/                  ← Raw and cleaned data (survey + Kaggle)
+├── visualization/           ← PNG/JPG files used in README and reports
+├── .ipynb\_checkpoints/      ← Auto-saved Jupyter files
+│
+├── Bootstrapping.ipynb      ← Resampling survey data (up to 1000 records)
+├── Data Pre-processing.ipynb← Data cleaning, formatting, feature creation
+├── Atika\_pro\_dashboard.pbix ← Power BI dashboard (interactive report)
+├── README.md                ← Project documentation
+
+```
+
+---
+
+## 📊 Key Questions Answered
+
+- Who are the typical users of short-form content?  
+- How many hours do they spend daily on social media?  
+- Does screen time relate to attention span decline?  
+- Are students’ productivity and academic performance affected?  
+- What are the most addictive content types?  
+- Are there visible health risks associated with excessive use?
+
+---
+
+## 🧪 Methodology
+
+### 1. **Data Collection**
+- **Primary:** My own Google Form survey (Indonesia-based)
+- **Secondary:** Kaggle dataset: [Students' Health and Academic Performance](https://www.kaggle.com/datasets/innocentmfa/students-health-and-academic-performance)
+
+### 2. **Data Preparation**
+- Cleaned missing values, duplicates, standardized column formats
+- Bootstrapped my survey data to improve sample representativeness
+- Transformed multi-answer fields and created new features
+
+### 3. **Exploratory Data Analysis (Python)**
+- 📎 Libraries: `pandas`, `numpy`, `matplotlib`, `seaborn`
+- Analyzed distributions, segmentations, and correlation heatmaps
+
+### 4. **Data Visualization (Power BI)**
+- Created 3 dashboard pages:
+  - **User Demographics & Content Preferences**
+  - **Attention Span vs Screen Time**
+  - **Academic Productivity & Health Risks**
+- Built DAX-based KPIs and slicers for interactivity
+
+---
+
+## 🔍 Key Insights
+
+- 🎥 **Instagram Reels dominates** — Used by 70% of respondents
+- 📱 **4+ hours screen time** correlates with lower attention in 69% of students
+- 🧠 **84%** say short videos reduce focus during studying
+- 🛌 Users with **poor sleep & eye strain** report more attention problems
+- 🎭 Comedy & fast-paced content are most addictive
+- 🎯 Most respondents prefer **short videos (<20 sec)** and **struggle with long-form content**
+- 🔋 Majority agree on reducing screen time or taking regular breaks
+
+---
+
+## 💡 Recommendations
+
+- ✅ Limit short-form content usage to improve focus
+- 📚 Encourage long-form and educational content for cognitive health
+- 🧘‍♀️ Practice digital mindfulness: schedule breaks, use screen-time apps
+- 🎯 For digital well-being programs, target youth aged 20–30 who are most affected
+
+---
+
+## 📌 Deliverables
+
+| File / Output             | Deskripsi |
+|--------------------------|-----------|
+| `Data Pre-processing.ipynb` | Python cleaning & transformation |
+| `Bootstrapping.ipynb`       | Synthetic data resampling |
+| `Atika_pro_dashboard.pbix` | Power BI interactive dashboard |
+| `visualization/`            | Dashboard screenshots for reporting |
+
+---
+
+## 📎 Related Links
+
+- 💼 Portfolio: [bit.ly/PortfolioAtikaArifiana](https://bit.ly/PortfolioAtikaArifiana)  
+- 🔗 LinkedIn: [linkedin.com/in/atika-arifiana](https://linkedin.com/in/atika-arifiana)  
+- 📊 Dashboard Screenshots: See `/visualization` folder  
+
+---
+
+## ✨ About Me
+
+I’m Atika, an IT student who loves combining **data, design, and real-world insights**. This project is a reflection of my interest in **digital well-being, behavior science**, and how data can **drive awareness and better choices**.
+
+> Made with 💙 in Indonesia 🇮🇩
+
+---
+
+## 📜 License
+
+This project is licensed under the MIT License — feel free to fork or adapt it for your own educational use.
+
+```
