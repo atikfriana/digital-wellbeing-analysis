@@ -50,8 +50,7 @@ Attention-Span-Analysis-main/
 ## 🧪 Methodology
 
 ### 1. **Data Collection**
-- **Primary:** My own Google Form survey (Indonesia-based)
-- **Secondary:** Kaggle dataset: [Students' Health and Academic Performance](https://www.kaggle.com/datasets/innocentmfa/students-health-and-academic-performance)
+- Kaggle dataset: [Students' Health and Academic Performance](https://www.kaggle.com/datasets/innocentmfa/students-health-and-academic-performance)
 
 ### 2. **Data Preparation**
 - Cleaned missing values, duplicates, standardized column formats
