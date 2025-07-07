@@ -50,6 +50,7 @@ Attention-Span-Analysis-main/
 ## 🧪 Methodology
 
 ### 1. **Data Collection**
+- Personal survey dataset (collected via Google Forms).
 - Kaggle dataset: [Students' Health and Academic Performance](https://www.kaggle.com/datasets/innocentmfa/students-health-and-academic-performance)
 
 ### 2. **Data Preparation**
