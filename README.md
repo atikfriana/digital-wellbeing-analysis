@@ -1,4 +1,4 @@
-# 🧠 Digital Wellbeing Analysis — How Short-Form Content Affects Focus and Productivity
+# 🧠 Digital Wellbeing Analysis - How Short-Form Content Affects Focus and Productivity
 
 Hi! I’m **Atika Arifiana**, a Data Analyst enthusiast passionate about using data for real impact.  
 This project explores how **short-form content** (Reels, TikTok, Shorts) affects **attention span, productivity, and mental health**, using survey data and public datasets.
